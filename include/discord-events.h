@@ -6,7 +6,8 @@
 
 #ifndef DISCORD_EVENTS_H
 #define DISCORD_EVENTS_H
-
+#include <stdint.h>
+#include <sys/types.h>
 /** @defgroup DiscordCommands Commands
  * @ingroup DiscordClient
  * @brief Requests made by the client to the Gateway socket
